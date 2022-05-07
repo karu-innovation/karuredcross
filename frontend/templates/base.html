@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+{% load static %}
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <title>Karu Redcross | {% block body %}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="title" content="" />
+    <link type="image/x-icon" href="image/tab-icon.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRoboto+Slab:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/danveer.css">
+</head>
+
+<body>
+    <!-- START PRELOADER -->
+    <div id="preloader">
+        <div id="spinner">
+            <img src="image/tab-icon.png" alt="loader" class="loading">
+            <h5 class="line-height-50 font-18">Loading...</h5>
+        </div>
+    </div>
+    <!-- END PRELOADER -->
+    <!-- HEADER START -->
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg header">
+            <div class="container p-0">
+                <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="logo"></a>
+                <button class="navbar-toggler collapsed ml-auto mt-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto mobilemenu">
+                        <li class="nav-item dropdown active">
+	       					<a class="nav-link dropdown-toggle"  href="index.html" data-toggle="dropdown" aria-expanded="false">HOME<span class="sr-only">(current)</span></a>
+                            <ul class="dropdown-menu" role="menu">
+	        					<li><a href="index.html">Homepage</a></li>
+          						<li><a href="homepage-1.html">Homepage 1</a></li>
+                                <li><a href="homepage-2.html">Homepage 2</a></li>
+          					</ul>
+	      				</li>
+                        <li class="nav-item dropdown megamenu">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">PAGES</a>
+                            <div id="navbarDropdown" class="dropdown-menu mega-dropdown-menu container row float-left" aria-labelledby="navbarDropdown">
+                                <ul class="col-xs-12 col-sm-3 float-left p-0" role="menu">
+                                    <li><a class="dropdown-item" href="causes.html">Causes</a></li>
+                                    <li><a class="dropdown-item" href="causes-detail.html">Causes-detail</a></li>
+                                    <li><a class="dropdown-item" href="causes-detail2.html">Causes-detail2</a></li>
+                                    <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                </ul>
+                                <ul class="col-xs-12 col-sm-3 float-left p-0" role="menu">
+                                    <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                                    <li><a class="dropdown-item" href="activities.html">Activities</a></li>
+                                    <li><a class="dropdown-item" href="ourteam.html">Our Team</a></li>
+                                    <li><a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
+                                </ul>
+                                <ul class="col-xs-12 col-sm-2 float-left p-0" role="menu">
+                                    <li><a class="dropdown-item" href="shop-page.html">Shop Page</a></li>
+                                    <li><a class="dropdown-item" href="shop-detail.html">Shop Detail</a></li>
+                                    <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+                                    <li><a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
+                                </ul>
+                                <ul class="col-sm-4 float-left img-box d-none d-lg-block pl-0 pr-2" role="menu">
+                                    <li>
+                                        <a class="dropdown-item" href="gallery.html"><img src="image/menu-img.jpg" alt="menu-img"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">GALLERY</a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="portfolio-masonry.html">Gallery Masonry</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">BLOG</a>
+                            <ul id="blogDropdown" class="dropdown-menu" aria-labelledby="blogDropdown">
+                                <li class="dropdown"><a href="blog.html" data-toggle="dropdown" aria-expanded="false">Blog</a>
+                                    <ul class="dropdown-menu level-3" aria-labelledby="bloglevel3" id="bloglevel3">
+                                        <li><a href="#" class="dropdown-item">Blog Left Sidebar</a></li>
+                                        <li><a href="#" class="dropdown-item">Blog Masonry</a></li>
+                                        <li><a href="#" class="dropdown-item">Blog Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
+                                <li><a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item donate d-none d-lg-block">
+                            <a href="causes-detail.html">DONATE NOW</a>
+                        </li>
+                        <li class="mob-donate d-sm-block d-lg-none">
+                            <a class="nav-link" href="causes-detail.html">DONATE NOW</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER END -->
+
+
+    {% block body %}
+
+    {% endblock body %}
+
+
+
+     <!-- FOOTER START -->
+     <footer class="footer-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <a href="index.html"><img class="footer-logo" src="image/footer-logo.png" alt="footer-logo"></a>
+                    <p class="footer-p">At vero eos et accusamus et iusto odio
+                        <br>ducimus qui blanditiis praesent</p>
+                    <ul class="footer-detail pl-0">
+                        <li>
+                            <img src="image/location.png" class="" alt="address">
+                            <span class="company-detail">203,Envato Labs,Behind Alis Steet,<br/>Melbourne,Australia.</span>
+                        </li>
+                        <li>
+                            <img src="image/mail.png" class="" alt="mailaddress">
+                            <a href="#" class="company-detail">demo@email.com</a>
+                        </li>
+                        <li>
+                            <img src="image/phone.png" class="" alt="phone">
+                            <a href="tel:+911234567890" class="company-detail">+91 123 456 789 0</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 footer-links">
+                    <h3 class="heading-five">About Us</h3>
+                    <ul class="footer-menu p-0">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Desktop App</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Report Bug</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 footer-links">
+                    <h3 class="heading-five">Our Services</h3>
+                    <ul class="footer-menu p-0">
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Mobile App</a></li>
+                        <li><a href="#">Desktop App</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Report Bug</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12 footer-links">
+                    <h3 class="heading-five">Get in Touch</h3>
+                    <ul class="footer-menu p-0">
+                        <li><a href="#">Get Support</a></li>
+                        <li><a href="#">Advertise with Us</a></li>
+                        <li><a href="#">Carrers</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Affiliate Program</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="copyright">
+                        <p class="pl-3">&copy; Danveer all Rights Reserved. Designed by <a href="https://templatescoder.com/" target="_blank">TemplatesCoder</a></p>
+                    </div>
+                    <div class="social-icon ml-auto mr-3">
+                        <a href="#" title="Follow on Facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" title="Follow on twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" title="Follow on google-plus"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" title="Follow on instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+    <!-- FOOTER SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
