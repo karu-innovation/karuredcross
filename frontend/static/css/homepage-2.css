@@ -1,0 +1,173 @@
+	.banner1-img img{width: 100%;}
+	.banner1-img{position: relative;}
+	.banner2-detail{position: absolute;top: 0;width: 100%;text-align: center;padding-top: 260px;color: #fff;}
+	.banner2-detail .banner-title{font-size: 80px;font-weight:900;}
+	.banner2-detail .heading-span{font-size: 20px;font-weight: 300;}
+	.banner2-detail .donate{color: #fff!important;background-color:#77c720;padding:14px 21px 15px 20px;display: inline-block;font-size: 14px;font-weight: 500;text-decoration: none;margin-top: 30px;}
+	#main-banner-slider .owl-item{float: left;}
+	.banner-slider{overflow: hidden;}
+	.banner-slider .owl-nav{display: inline-block!important;}
+	.banner-slider .owl-nav .owl-prev{position: absolute;left: 10px;top: 47%;color: #fff;background: url(../image/left-arrow.png)no-repeat;background-color: #e5e5e5;padding: 15px;height: 12px;width: 12px;background-position: 10px 9px;font-size: 0;opacity: 0.9;}
+	.banner-slider .owl-nav .owl-next{position: absolute;right: 10px;top: 47%;color: #fff;background: url(../image/right-arrow.png)no-repeat;background-color: #e5e5e5;padding: 15px;height: 12px;width: 12px;background-position: 12px 9px;font-size: 0;opacity: 0.9;}
+	.banner-slider .owl-nav .owl-prev:hover{position: absolute;left: 10px;top: 47%;color: #fff;background: url(../image/left-hover-arrow.png)no-repeat;background-color: #efefef;padding: 15px;height: 12px;width: 12px;background-position: 10px 9px;font-size: 0;}
+	.banner-slider .owl-nav .owl-next:hover{position: absolute;right: 10px;top: 47%;color: #fff;background:url(../image/right-hover-arrow.png)no-repeat;background-color: #efefef;padding: 15px;height: 12px;width: 12px;background-position: 12px 9px;font-size: 0;}
+	.banner-slider .owl-nav .owl-next:hover,.causes-slide .owl-nav .owl-prev:hover{cursor: pointer;}
+	.col-gren{background-color: #77c720!important;}
+	.about-company-part .about-detail-part .about-readmore:hover,.upcoming-event-section .upcoming-event-detail .event-readmore:hover,.upcoming-event-part .upcoming-event-detail .event-readmore:hover,.banner2-detail .donate:hover,.col-gren:hover{background-color:#589a10!important;color: #fff!important;}
+	.bg-none{background-color: transparent;position: absolute;width:100%;left:auto;right:auto;z-index: 50;}
+	.ml-30{margin-left: 30px;}
+	.mr-30{margin-right: 24px!important;}
+	.bg-home2{background-color: #231f20;}
+	.bg-red{background-color: #272324;}
+	.bottom-footer .copyright a.theme-col{color: #77c720;}
+	.footer-part .social-icon i:hover{background-color: #ff6d0d!important;}
+	
+	/*our-activity-part*/
+	.our-activity-part .activity-img-bg{background-color: #77c720;border-radius: 50%;height: 110px;width: 110px;border: 6px solid #bbe38f;margin: 0 auto;padding-top: 20px;}
+	.our-activity-part .activity-img-bg:hover{transform: rotateY(180deg);}
+	.our-activity-part .activity-head-three{color:#111;font-size: 24px;font-family:'Roboto Slab',sans-serif;font-weight: 600;margin-bottom: 15px;margin-top: 10px;}
+	.our-activity-part .activity-p{color:#999;}
+	.bg-grey{background-color: #f5f5f5;}
+	/*End*/
+
+	/*our-causes-part*/
+	.recent-causes-slider .owl-item{float:left;}
+	.recent-causes-slider{overflow: hidden;}
+	.recent-causes-slider .owl-nav{display: none!important;}
+	.recent-causes-slider .owl-stage-outer .recent-causes-img  img{width: 100%;}
+	.our-causes-part .causes-title{font-size: 16px;color: #212322;font-family:'Roboto Slab',sans-serif;font-weight: 600;}
+	.our-causes-part .cause-detail{background-color: #fff;padding: 10px 30px 15px;border: 1px solid #e6e6e6;display: inline-block;}
+	.section-detail,.our-causes-part .section-detail{margin-bottom: 25px!important;}
+	.our-causes-part .cause-detail .raised .pay-label{margin-bottom: 0;}
+	.our-causes-part .cause-detail .progress{background-color:#dbdbdb!important;height: 8px!important;margin-bottom: 25px;}
+	.our-causes-part .cause-detail .progress{overflow: visible;}
+	.our-causes-part .cause-detail .progress .progress-bar{background-color: #77c720!important;}
+	.our-causes-part .cause-detail .progress .progress-bar .percent{background-color: #77c720;color: #fff;font-size: 10px;line-height: 8px;padding:13px 7px;position: absolute;right: 0px;text-align: center;top: -15px;border-radius: 50%;}
+	.our-causes-part .cause-detail .progress:hover .progress-bar .percent,.our-causes-part .cause-detail .progress:hover .progress-bar{background-color:#579c0c!important;}
+	.our-causes-part .cause-detail .raised .pay-label{color:#77c720;}
+	.our-causes-part .recent-causes-slider .owl-dots{display: inline-block;width: 100%;text-align: center;}
+	.our-causes-part .recent-causes-slider .owl-dots .owl-dot{width: 16px;height: 16px;border:1px solid #b6b6b6;background-color: transparent;display: inline-block;margin:20px 5px 0;border-radius: 50%;}
+	.our-causes-part .recent-causes-slider .owl-dots .owl-dot.active,.recent-causes-slider .owl-dots .owl-dot:hover{background-color: #231f20!important;border:none;}
+	/*End*/
+
+	/*about-part*/
+	.about-company-part .about-detail-part .about-head-three{font-size: 45px;color: #231f20;font-weight: 800;font-family:'Roboto Slab',sans-serif;}
+	.about-company-part .about-img img{border-right:20px solid #77c720;border-radius:50%;}
+	.about-company-part .about-detail-part .about-detail-span{font-size: 24px;font-weight: 700;color:#77c720;margin: 10px 0 15px 0;display: block;}
+	.about-company-part .about-detail-part .about-detail-p{color:#999;line-height: 30px;}
+	.about-company-part .about-detail-part .about-readmore{background-color: #77c720;color:#fff!important;padding: 16px 28px;display: inline-block;}
+	/*End*/
+
+	/*testimoni-part*/
+	.testimoni-part{background: url(../image/testimonial-bg.jpg) center no-repeat;}
+	.testimoni-part .testimoni-detail{background-color: #fff;border-radius:5px;padding: 30px;}
+	.testimoni-part .section-title{color: #fff;}
+	.testimoni-part .testimoni-p{color: #999;margin: 15px 0 25px 0;}
+	.testimoni-part .testimoni-head-three{color:#77c720;font-size: 14px;font-weight: 700;font-family:'Roboto Slab',sans-serif;}
+	.testimoni-slider .owl-item{float:left;}
+	.testimoni-slider{overflow: hidden;}
+	.py-100{padding: 80px 0 80px;}
+	.testimoni-slider .owl-nav{display: none!important;}
+	.testimoni-slider .owl-dots{display: inline-block;width: 100%;text-align: center;padding-top: 30px;}
+	.testimoni-slider .owl-dots .owl-dot{width: 16px;height: 16px;border:2px solid #fff;display: inline-block;margin:0px 5px 0;border-radius: 50%;}
+	.testimoni-slider .owl-dots .owl-dot.active,.recent-causes-slider .owl-dots .owl-dot:hover{background-color: #77c720;border:none;}
+	/*End*/
+
+	/*Upcoming-event-section*/
+	.upcoming-event-section .upcoming-event-detail{padding: 30px;}
+	.upcoming-event-section .upcoming-event-detail .upcoming-head-four{font-size: 24px;font-family: 'Roboto Slab',sans-serif;color:#231f20;font-weight: 600;}
+	.upcoming-event-section .upcoming-event-detail .upcoming-head-four a{color: #231f20;}
+	.upcoming-event-section .upcoming-event-detail .upcoming-date{color: #77c720;}
+	.upcoming-event-section .upcoming-event-detail .upcoming-p{color: #999;line-height: 26px;}
+	.upcoming-event-section .upcoming-event-detail .event-readmore{background-color: #77c720;padding: 16px 28px;color: #fff!important;display: inline-block;}
+	.upcoming-event-section img{max-width: 960px;width: auto!important;height: 100%;}
+	
+	.slider-width{overflow: unset!important;}
+	.slider-width .owl-stage-outer{position: relative;overflow: hidden;}
+	.brand-part .slider-width .owl-nav{display: none!important;}
+	.slider-width .owl-dots{display: inline-block;width: 100%;text-align: center;padding-top: 30px;position: absolute;bottom: -50px;}
+	.slider-width .owl-dots .owl-dot{width: 16px;height: 16px;border:1px solid #77c720;display: inline-block;margin:0px 5px 0;border-radius: 50%;}
+	.slider-width .owl-dots .owl-dot.active,.slider-width .owl-dots .owl-dot:active{background-color: #77c720;}
+
+@media (min-width: 1610px) and (max-width: 1920px){
+	.banner2-detail{padding-top: 380px;}
+}
+@media (min-width: 1400px) and (max-width: 1600px){
+	.banner2-detail{padding-top: 300px;}
+}	
+@media (min-width: 992px) and (max-width: 1200px){
+	.header.bg-none{padding: 0 15px!important;}
+	.ml-30{margin-left: 20px;}
+	.mr-30{margin-right: 20px!important;}
+	.upcoming-event-section .overflow-none{overflow: hidden;}
+	.banner2-detail .banner-title{font-size: 40px;}
+	.banner2-detail .heading-span{font-size: 16px;}
+	.banner2-detail{padding-top: 240px;}
+	.banner2-detail .donate{margin-top: 10px;padding: 10px 15px;font-size: 13px;}
+}
+
+@media(min-width:768px) and (max-width: 991px){
+	.banner2-detail .heading-span{font-size: 16px;}
+	.navbar-dark .navbar-toggler-icon{margin-right: 10px;}
+	.our-activity-part .activity-head-three{font-size: 18px;}
+	.banner2-detail .banner-title{font-size: 30px;}
+	.banner2-detail{padding-top: 140px;}
+	.banner2-detail .donate{margin-top:20px;}
+	.upcoming-event-section img{width: 100%!important;}
+	.upcoming-event-section .upcoming-event-detail{padding: 20px;background-color: #f5f5f5;}
+	.bg-grey{background-color: transparent;}
+	.about-company-part .about-detail-part .about-head-three{margin-top: 20px;font-size:36px;}
+	.about-company-part .about-detail-part .about-detail-span{font-size: 20px;}
+	.navbar-dark .navbar-brand img{width: 180px;height: 30px;}
+	.brand-part .slider-width .owl-dots{left: 0!important;right: 0!important;width: auto!important;}
+	.slider-width .owl-dots .owl-dot.active,.slider-width .owl-dots .owl-dot:active{background-color: #77c720!important;}
+	.banner-slider .owl-nav .owl-prev{position: absolute;left: 10px;top: 50%;color: #fff;background: url(../image/left-arrow.png)no-repeat;background-color: #e5e5e5;padding: 15px;height: 12px;width: 12px;background-position: 10px 9px;font-size: 0;opacity: 0.9;}
+	.banner-slider .owl-nav .owl-next{position: absolute;right: 10px;top: 50%;color: #fff;background: url(../image/right-arrow.png)no-repeat;background-color: #e5e5e5;padding: 15px;height: 12px;width: 12px;background-position: 12px 9px;font-size: 0;opacity: 0.9;}
+	.banner-slider .owl-nav .owl-prev:hover{position: absolute;left: 10px;top: 50%;color: #fff;background: url(../image/left-hover-arrow.png)no-repeat;background-color: #efefef;padding: 15px;height: 12px;width: 12px;background-position: 10px 9px;font-size: 0;}
+	.banner-slider .owl-nav .owl-next:hover{position: absolute;right: 10px;top: 50%;color: #fff;background:url(../image/right-hover-arrow.png)no-repeat;background-color: #efefef;padding: 15px;height: 12px;width: 12px;background-position: 12px 9px;font-size: 0;}
+}
+@media (max-width: 767px) and (min-width: 320px){
+	.banner1-img img{width: 100%;height: 200px;}
+	.banner2-detail .banner-title{font-size: 20px;margin-bottom: 0;}
+	.banner2-detail .heading-span{font-size: 12px;}
+	.ml-30{margin-left: 10px;}
+	.header.bg-none .navbar-brand img{width: auto!important;height: 26px;}
+	.header.bg-none.navbar-dark .navbar-brand{margin-left: 12px!important;padding-bottom: 3px!important;}
+	.banner2-detail{padding-top: 100px;padding-left: 15px;padding-right: 15px;}
+	.banner2-detail .donate{margin-top: 5px;padding: 5px 7px;font-size: 12px;}
+	.about-company-part .about-detail-part{margin-bottom: 30px;}
+	.about-company-part .about-detail-part .about-head-three{font-size: 28px;margin-top: 15px;}
+	.about-company-part .about-detail-part .about-detail-span{font-size: 18px;}
+	.bottom-footer.bg-red .copyright p{font-size: 14px;}
+	.upcoming-event-section img{width: 100%!important;}
+	.upcoming-event-section .upcoming-event-detail{padding: 20px;background-color: #f5f5f5;}
+	.bg-grey{background-color: transparent;}
+	.upcoming-event-section .upcoming-event-detail .upcoming-head-four{font-size: 18px;}
+	.upcoming-event-section .upcoming-event-detail .event-readmore{padding: 8px 14px;font-size: 13px;}
+	.upcoming-event-section .upcoming-event-detail .upcoming-p{margin-bottom: 10px;}
+	.upcoming-event-section .upcoming-event-small .img-box{text-align: center;float: none!important;}
+	.our-activity-part{padding-bottom: 0!important;}
+	.our-activity-part .activity-head-three{font-size: 18px;margin: 10px 0;}
+	.our-causes-part .recent-causes-slider .owl-stage .owl-item .recent-causes-img img{width: 100%;}
+	.about-company-part .about-detail-part .about-readmore{padding: 8px 14px;font-size: 13px;}
+	.our-activity-part .activity-img-bg{height: 80px;width: 80px;padding-top: 10px;border: 5px solid #bbe38f;}
+	.our-activity-part .activity-img-bg img{height: 50px;width: 50px;}
+	.upcoming-event-part .upcoming-event-detail{margin-top: 0px;}
+	.about-company-part .about-img img{width: auto;height: auto;border-right: 10px solid #77c720;}
+	.brand-part .slider-width .owl-dots{left: 0!important;right: 0!important;width: auto!important;}
+	.slider-width .owl-dots .owl-dot.active,.slider-width .owl-dots .owl-dot:active{background-color: #77c720!important;}
+	.brand-part{padding: 40px 0 50px;}
+	.banner-slider .owl-nav{display: none!important;}
+	.banner-slider .owl-dots{text-align: center;width: 100%;position: absolute;top:172px;}
+	.banner-slider .owl-dot{width: 8px;height: 8px;border: 1px solid #d8d8d8;margin: 0 5px;display: inline-block;}
+	.banner-slider .owl-dot.active{background-color: #77c720;border: none;}
+	.our-causes-part.paddingub{padding-bottom: 0;}
+}
+
+@media (max-width: 575px){
+	.testimoni-part{background-size: cover;padding: 40px 0;}
+	.our-causes-part .section-detail{font-size: 14px;}
+	.section-detail{font-size: 14px;}
+	.navbar-dark .navbar-toggler-icon{margin-top: 10px;}
+	.testimoni-slider .owl-dots .owl-dot,.our-causes-part .recent-causes-slider .owl-dots .owl-dot,.slider-width .owl-dots .owl-dot{width: 8px;height: 8px;}
+}
