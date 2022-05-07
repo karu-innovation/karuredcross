@@ -12,7 +12,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="" />
     <meta name="title" content="" />
-    <link type="image/x-icon" href="image/tab-icon.png" rel="icon">
+    <link type="image/x-icon" href="{% static 'image/tab-icon.png' %}" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRoboto+Slab:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -23,7 +23,7 @@
     <!-- START PRELOADER -->
     <div id="preloader">
         <div id="spinner">
-            <img src="image/tab-icon.png" alt="loader" class="loading">
+            <img src="{% static 'image/tab-icon.png' %}" alt="loader" class="loading">
             <h5 class="line-height-50 font-18">Loading...</h5>
         </div>
     </div>
@@ -32,7 +32,7 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg header">
             <div class="container p-0">
-                <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="{% static 'image/logo.png' %}" alt="logo"></a>
                 <button class="navbar-toggler collapsed ml-auto mt-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -69,7 +69,7 @@
                                 </ul>
                                 <ul class="col-sm-4 float-left img-box d-none d-lg-block pl-0 pr-2" role="menu">
                                     <li>
-                                        <a class="dropdown-item" href="gallery.html"><img src="image/menu-img.jpg" alt="menu-img"></a>
+                                        <a class="dropdown-item" href="gallery.html"><img src="{% static 'image/menu-img.jpg' %}" alt="menu-img"></a>
                                     </li>
                                 </ul>
                             </div>
