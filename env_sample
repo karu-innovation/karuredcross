@@ -1,0 +1,4 @@
+EMAIL_HOST_USER=<host email>
+EMAIL_HOST_PASSWORD=<email password>
+
+DJANGO_SECRET_KEY=<django secret key>
