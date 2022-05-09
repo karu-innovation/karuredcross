@@ -1,0 +1,39 @@
+Accounts - username
+	- first_name last_name
+	- email
+	- profile_image
+	- phone_number
+	- About
+	- is_admin
+	- is_leader
+	- is_member
+	
+	
+Branches - Town
+	 - main campus
+	 
+BlogCategory - category_name
+	     - timestamp
+	
+Blog	- Title
+	- Content
+	- Timestamp
+	- Thumbnail
+	- date_updated
+	
+BlogMedia - blog
+	  - Image
+	  - Image_thumbnail
+	  - Video
+	  - file
+	  
+Leaders	  - Full Name
+	  - Role
+	  - Branch
+
+Events	  - event_name
+	  - venue
+	  - date
+	  - timestamp
+	  - passed
+	
