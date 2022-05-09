@@ -39,60 +39,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav ml-auto mobilemenu">
                         <li class="nav-item dropdown active">
-	       					<a class="nav-link dropdown-toggle"  href="index.html" data-toggle="dropdown" aria-expanded="false">HOME<span class="sr-only">(current)</span></a>
-                            <ul class="dropdown-menu" role="menu">
-	        					<li><a href="index.html">Homepage</a></li>
-          						<li><a href="homepage-1.html">Homepage 1</a></li>
-                                <li><a href="homepage-2.html">Homepage 2</a></li>
-          					</ul>
+	       					<a class="nav-link"  href="index.html" data-toggle="dropdown" aria-expanded="false">HOME<span class="sr-only">(current)</span></a>
+                           
 	      				</li>
                         <li class="nav-item dropdown megamenu">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false">PAGES</a>
-                            <div id="navbarDropdown" class="dropdown-menu mega-dropdown-menu container row float-left" aria-labelledby="navbarDropdown">
-                                <ul class="col-xs-12 col-sm-3 float-left p-0" role="menu">
-                                    <li><a class="dropdown-item" href="causes.html">Causes</a></li>
-                                    <li><a class="dropdown-item" href="causes-detail.html">Causes-detail</a></li>
-                                    <li><a class="dropdown-item" href="causes-detail2.html">Causes-detail2</a></li>
-                                    <li><a class="dropdown-item" href="blog.html">More</a></li>
-                                </ul>
-                                <ul class="col-xs-12 col-sm-3 float-left p-0" role="menu">
-                                    <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-                                    <li><a class="dropdown-item" href="activities.html">Activities</a></li>
-                                    <li><a class="dropdown-item" href="ourteam.html">Our Team</a></li>
-                                    <li><a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
-                                </ul>
-                                <ul class="col-xs-12 col-sm-2 float-left p-0" role="menu">
-                                    <li><a class="dropdown-item" href="shop-page.html">Shop Page</a></li>
-                                    <li><a class="dropdown-item" href="shop-detail.html">Shop Detail</a></li>
-                                    <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
-                                    <li><a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
-                                </ul>
-                                <ul class="col-sm-4 float-left img-box d-none d-lg-block pl-0 pr-2" role="menu">
-                                    <li>
-                                        <a class="dropdown-item" href="gallery.html"><img src="{% static 'image/menu-img.jpg' %}" alt="menu-img"></a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false">BLOG</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">GALLERY</a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="portfolio-masonry.html">Gallery Masonry</a></li>
-                            </ul>
+                            <a class="nav-link" data-toggle="dropdown" aria-expanded="false" href="#">EVENTS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
                             <ul id="blogDropdown" class="dropdown-menu" aria-labelledby="blogDropdown">
-                                <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">About Us</a>
-                                    <ul class="dropdown-menu level-3" aria-labelledby="bloglevel3" id="bloglevel3">
-                                        <li><a href="#" class="dropdown-item">Blog Left Sidebar</a></li>
-                                        <li><a href="#" class="dropdown-item">Blog Masonry</a></li>
-                                        <li><a href="#" class="dropdown-item">Blog Detail</a></li>
-                                    </ul>
-                                </li>
-                                <li><a class="dropdown-item" href="blog-masonry.html">Blog Masonry</a></li>
-                                <li><a class="dropdown-item" href="blog-detail.html">Blog Detail</a></li>
+                                <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">Team</a></li>
+                                <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">Gallery</a></li>
+                                <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">About Us</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
