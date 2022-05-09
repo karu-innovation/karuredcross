@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 {% load static %}
 <!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
+<html lang="en"> 
 <!--<![endif]-->
 
 <head>
-    <title>Karu Redcross | {% block body %}</title>
+    <title>Karu Redcross | {% block title %}  {% endblock title %}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -14,9 +14,9 @@
     <meta name="title" content="" />
     <link type="image/x-icon" href="{% static 'image/tab-icon.png' %}" rel="icon">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRoboto+Slab:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="css/danveer.css">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css'  %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/danveer.css' %}">
 </head>
 
 <body>
@@ -123,12 +123,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <a href="index.html"><img class="footer-logo" src="image/footer-logo.png" alt="footer-logo"></a>
+                    <a href="index.html"><img class="footer-logo" src="{% static 'image/footer-logo.png' %}" alt="footer-logo"></a>
                     <p class="footer-p">At vero eos et accusamus et iusto odio
                         <br>ducimus qui blanditiis praesent</p>
                     <ul class="footer-detail pl-0">
                         <li>
-                            <img src="image/location.png" class="" alt="address">
+                            <img src="{% static 'image/location.png' %}" class="" alt="address">
                             <span class="company-detail">203,Envato Labs,Behind Alis Steet,<br/>Melbourne,Australia.</span>
                         </li>
                         <li>
@@ -197,10 +197,10 @@
     </footer>
     <!-- FOOTER END -->
     <!-- FOOTER SCRIPTS -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/owl.carousel.js'  %}"></script>
+    <script src="{% static 'js/custom.js'  %}"></script>
 </body>
 </html>

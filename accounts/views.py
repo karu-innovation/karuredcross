@@ -42,7 +42,7 @@ def LogOutView(request, *args, **kwargs):
     logout(request)
     messages.success(request,"You successfully logged out")
     return redirect('core:index')
-
+#Register
 def RegisterView(request):
     if request.method == 'POST':
         username = request.POST.get('username')
