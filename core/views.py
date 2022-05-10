@@ -13,3 +13,8 @@ def AboutUsView(request, *args, **kwargs):
 
 def TeamView(request, *args, **kwargs):
     return render(request, 'team.html', {})
+
+
+def BlogView(request, *args, **kwargs):
+    
+    return render(request, 'bloglistview.html', {})
