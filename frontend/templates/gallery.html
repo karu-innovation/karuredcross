@@ -1,0 +1,60 @@
+  {% extends 'base.html' %}
+   <!-- MAIN START -->
+   {% load static %}
+   {% block body %}
+    <main class="main">
+        <div class="gallery-banner text-left">
+            <div class="banner-content">
+                <div class="container pl-0">
+                    <h1 class="heading-three">Gallery</h1>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-part">
+            <div class="gallery-category">
+                <button class="workitem btn active p-0" onclick="filterSelection('all')">
+                    <span class="all active">Show All</span>
+                </button>
+                <button class="workitem btn p-0" onclick="filterSelection('charity')">
+                    <span class="all">Charity</span>
+                </button>
+                <button class="workitem btn p-0" onclick="filterSelection('childrens')">
+                    <span class="all">Children</span>
+                </button>
+                <button class="workitem btn p-0" onclick="filterSelection('donate')">
+                    <span class="all">Donate</span>
+                </button>
+                <button class="workitem btn p-0" onclick="filterSelection('volunteer')">
+                    <span class="all">Volunteer</span>
+                </button>
+            </div>
+            <div class="container">
+                <div class="row img-show popup-gallery" id="grid">
+                    <div class="column charity col-xs-12 col-sm-6 col-md-4 cat-detail">
+                        <div class="blog-part img-box">
+                            <a href="image/gallery-img1.png" class="blog-img zoom">
+                                <img class="workimg" src="image/gallery-img1.png" alt="gallery">
+                            </a>
+                        </div>
+                    </div>
+                <div class="more">
+                    <a href="#" class="more-btn">VIEW MORE PROJECTS</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- MAIN END -->
+
+{% block javascript %}
+<script>
+        $(document).ready(function() {
+            $('button').click(function() {
+                $('button').removeClass("active");
+                $(this).addClass("active");
+            });
+        });
+    </script>
+
+{% endblock javascript %}
+{% endblock %}
