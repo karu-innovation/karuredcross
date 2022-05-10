@@ -13,3 +13,9 @@ def AboutUsView(request, *args, **kwargs):
 
 def TeamView(request, *args, **kwargs):
     return render(request, 'team.html', {})
+
+def EventsView(request, *args, **kwargs):
+    return render(request, 'events.html', {})
+
+def GalleryView(request, *args, **kwargs):
+    return render(request, 'gallery.html', {})

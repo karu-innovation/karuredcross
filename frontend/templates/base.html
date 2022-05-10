@@ -40,25 +40,26 @@
                     <ul class="nav navbar-nav ml-auto mobilemenu">
                         <li class="nav-item dropdown active">
 	       					<a class="nav-link"  href="{% url 'core:index' %}" data-toggle="dropdown" aria-expanded="false">HOME<span class="sr-only">(current)</span></a>
-                           
 	      				</li>
                         <li class="nav-item dropdown megamenu">
                             <a href="#" class="nav-link" data-toggle="dropdown" aria-expanded="false">BLOG</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" data-toggle="dropdown" aria-expanded="false" href="#">EVENTS</a>
+                            <a class="nav-link" data-toggle="dropdown" aria-expanded="false" href="{% url 'core:events' %}">EVENTS</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
                             <ul id="blogDropdown" class="dropdown-menu" aria-labelledby="blogDropdown">
-                                <li class="dropdown"><a href="{% url 'core:team-view' %}" data-toggle="dropdown" aria-expanded="false">Team</a></li>
+                                <li class="dropdown"><a href="{% url 'core:events' %}" data-toggle="dropdown" aria-expanded="false"></a>Events</li>
                                 <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">Gallery</a></li>
                                 <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">About Us</a></li>
                             </ul>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="{% url 'core:contact-us' %}">CONTACT US</a>
                         </li>
+                        
                         <li class="nav-item donate d-none d-lg-block">
                             <a href="causes-detail.html">DONATE NOW</a>
                         </li>
