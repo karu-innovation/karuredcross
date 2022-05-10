@@ -10,3 +10,6 @@ def ContactUsView(request, *args, **kwargs):
 
 def AboutUsView(request, *args, **kwargs):
     return render(request, 'about-us.html', {})
+
+def TeamView(request, *args, **kwargs):
+    return render(request, 'team.html', {})

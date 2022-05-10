@@ -23,7 +23,7 @@
     <!-- START PRELOADER -->
     <div id="preloader">
         <div id="spinner">
-            <img src="{% static 'image/tab-icon.png' %}" alt="loader" class="loading">
+            <img src="{% static 'image/tab-icon.svg' %}" alt="loader" class="loading">
             <h5 class="line-height-50 font-18">Loading...</h5>
         </div>
     </div>
@@ -32,14 +32,14 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand-lg header">
             <div class="container p-0">
-                <a class="navbar-brand" href="index.html"><img src="{% static 'image/logo.png' %}" alt="logo"></a>
+                <a class="navbar-brand" href="{% url 'core:index' %}"><img src="{% static 'image/logo.png' %}" alt="logo"></a>
                 <button class="navbar-toggler collapsed ml-auto mt-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav navbar-nav ml-auto mobilemenu">
                         <li class="nav-item dropdown active">
-	       					<a class="nav-link"  href="index.html" data-toggle="dropdown" aria-expanded="false">HOME<span class="sr-only">(current)</span></a>
+	       					<a class="nav-link"  href="{% url 'core:index' %}" data-toggle="dropdown" aria-expanded="false">HOME<span class="sr-only">(current)</span></a>
                            
 	      				</li>
                         <li class="nav-item dropdown megamenu">
@@ -51,7 +51,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">MORE</a>
                             <ul id="blogDropdown" class="dropdown-menu" aria-labelledby="blogDropdown">
-                                <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">Team</a></li>
+                                <li class="dropdown"><a href="{% url 'core:team-view' %}" data-toggle="dropdown" aria-expanded="false">Team</a></li>
                                 <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">Gallery</a></li>
                                 <li class="dropdown"><a href="{% url 'core:about-us' %}" data-toggle="dropdown" aria-expanded="false">About Us</a></li>
                             </ul>
@@ -84,7 +84,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <a href="index.html"><img class="footer-logo" src="{% static 'image/footer-logo.png' %}" alt="footer-logo"></a>
+                    <a href="{% static 'core:index' %}"><img class="footer-logo" src="{% static 'image/footer-logo.png' %}" alt="footer-logo"></a>
                     <p class="footer-p">At vero eos et accusamus et iusto odio
                         <br>ducimus qui blanditiis praesent</p>
                     <ul class="footer-detail pl-0">
@@ -107,7 +107,7 @@
                     <ul class="footer-menu p-0">
                         <li><a href="#">About us</a></li>
                         <li><a href="#">How it works</a></li>
-                        <li><a href="#">Team</a></li>
+                        <li><a href="{% url 'core:team-view' %}">Team</a></li>
                         <li><a href="#">Mobile App</a></li>
                         <li><a href="#">Desktop App</a></li>
                         <li><a href="#">Security</a></li>
