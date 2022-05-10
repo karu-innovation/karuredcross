@@ -1,0 +1,274 @@
+{% extends "base.html" %}
+    <!-- MAIN START -->
+    <main class="main">
+        <div class="activities-banner text-left">
+            <div class="banner-content">
+                <div class="container pl-0">
+                    <h1 class="heading-three">Events</h1>
+                </div>
+            </div>
+        </div>
+        <div class="services paddingub">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 my-15 text-center text-lg-left">
+                        <div class="mr-lg-4 mr-0 mb-3 mb-sm-0 float-none float-lg-left">
+                            <img src="{% static 'image/activity-education-icon.png' %}" alt="education-icon" class="animall">
+                        </div>
+                        <div class="services-detail float-none float-lg-left">
+                            <h2 class="serv-head-two">Education</h2>
+                            <p class="serv-p">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 my-15 text-center text-lg-left">
+                        <div class="mr-lg-4 mr-0 mb-3 mb-sm-0 float-none float-lg-left">
+                            <img src="{% static 'image/activity-education-icon.png' %}" alt="donation-icon" class="animall">
+                        </div>
+                        <div class="services-detail  float-none float-lg-left">
+                            <h2 class="serv-head-two">Receive Donation</h2>
+                            <p class="serv-p">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 my-15 text-center text-lg-left">
+                        <div class="mr-lg-4 mr-0 mb-3 mb-sm-0 float-none float-lg-left">
+                            <img src="{% static 'image/prayer-icon.png' %}" alt="prayer-icon" class="animall">
+                        </div>
+                        <div class="services-detail float-none float-lg-left">
+                            <h2 class="serv-head-two">Prayer</h2>
+                            <p class="serv-p">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 my-15 text-center text-lg-left">
+                        <div class="mr-lg-4 mr-0 mb-3 mb-sm-0 float-none float-lg-left">
+                            <img src="{% static 'image/prevention-icon.png' %}" alt="prevention-icon" class="animall">
+                        </div>
+                        <div class="services-detail float-none float-lg-left">
+                            <h2 class="serv-head-two">Prevention</h2>
+                            <p class="serv-p">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 my-15 text-center text-lg-left">
+                        <div class="mr-lg-4 mr-0 mb-3 mb-sm-0 float-none float-lg-left">
+                            <img src="image/health-rights-icon.png" alt="health-rights-icon" class="animall">
+                        </div>
+                        <div class="services-detail float-none float-lg-left">
+                            <h2 class="serv-head-two">Health and Rights</h2>
+                            <p class="serv-p">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 my-15 text-center text-lg-left">
+                        <div class="mr-lg-4 mr-0 mb-3 mb-sm-0 float-none float-lg-left">
+                            <img src="image/water-icon.png" alt="water-icon" class="animall">
+                        </div>
+                        <div class="services-detail float-none float-lg-left">
+                            <h2 class="serv-head-two">Water and Sanitation</h2>
+                            <p class="serv-p">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="donation-part activity">
+            <div class="container">
+                <div class="row">
+                    <div class="payment-part">
+                        <h3 class="heading-three">MAKE A DONATION</h3>
+                        <div class="img-box pay-option">
+                            <img src="image/payment1.png" alt="online-pay">
+                            <img src="image/payment2.png" alt="online-pay">
+                            <img src="image/payment3.png" alt="online-pay">
+                            <img src="image/payment4.png" alt="online-pay">
+                            <img src="image/payment5.png" alt="online-pay" class="d-none">
+                        </div>
+                        <div class="payment-type">
+                            <div class="form-check float-left">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="option1" checked="">
+                                <label class="form-check-label" for="radio1">Payment Type</label>
+                            </div>
+                            <div class="form-check float-left">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="radio2" value="option2">
+                                <label class="form-check-label" for="radio2">Recurring</label>
+                            </div>
+                            <div class="donation-detail inline">
+                                <form>
+                                    <div class="form-group float-left">
+                                        <label for="Select1">I Want to Donate for</label>
+                                        <select class="form-control" id="Select1">
+                                            <option>Educate Children</option>
+                                            <option>Healthy Food</option>
+                                            <option>Water</option>
+                                            <option>Home</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group float-left">
+                                        <label for="Select2">Currency</label>
+                                        <select class="form-control" id="Select2">
+                                            <option>USD - U.S. Dollars</option>
+                                            <option>INR - Indian Rupee</option>
+                                            <option>AUD - Australian Dollars</option>
+                                            <option>BRL - Brazilian Reais</option>
+                                            <option>GBP - British Pounds</option>
+                                            <option>HKD - Hong Kong Dollars</option>
+                                            <option>HUF - Hungarian Forints</option>
+                                            <option>INR - Indian Rupee</option>
+                                            <option>ILS - Israeli New Shekels</option>
+                                            <option>JPY - Japanese Yen</option>
+                                            <option>MYR - Malaysian Ringgit</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="pay-group">
+                                <div class="form-group mb-0">
+                                    <label class="head-label mb-0">How much do you want to donate?</label>
+                                </div>
+                                <div class="form-check float-left">
+                                    <input class="form-check-input" type="radio" name="Radio" id="Radio1">
+                                    <label class="form-check-label" for="Radio1">$20</label>
+                                </div>
+                                <div class="form-check float-left">
+                                    <input class="form-check-input" type="radio" name="Radio" id="Radio2">
+                                    <label class="form-check-label" for="Radio2">$50</label>
+                                </div>
+                                <div class="form-check float-left">
+                                    <input class="form-check-input" type="radio" name="Radio" id="Radio3">
+                                    <label class="form-check-label" for="Radio3">$100</label>
+                                </div>
+                                <div class="form-check float-left">
+                                    <input class="form-check-input" type="radio" name="Radio" id="Radio4">
+                                    <label class="form-check-label" for="Radio4">$200</label>
+                                </div>
+                                <div class="form-check float-left">
+                                    <input class="form-check-input" type="radio" name="Radio" id="Radio5">
+                                    <label class="form-check-label" for="Radio5">$500</label>
+                                </div>
+                                <div class="form-check float-left">
+                                    <input class="form-check-input" type="radio" name="Radio" id="Radio6">
+                                    <label class="form-check-label" for="Radio6">Other Amount</label>
+                                </div>
+                            </div>
+                            <a href="#" class="payment-done">DONATE NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment-part">
+            <div class="causes-content text-center">
+                <h2 class="section-title">What People Say</h2>
+                <p class="section-detail">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+                    <br>corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-9 comments text-center p-0">
+                        <div class="testimonial-slider">
+                            <div class="auto-container px-0">
+                                <div class="testimonial-outer">
+                                    <div class="client-testimonial-carousel owl-carousel owl-theme owl-loaded owl-drag">
+                                        <div class="item">
+                                            <img src="image/quote-icon.png" alt="quote-icon">
+                                            <div class="testimonial-block-one">
+                                                <div class="inner-box">
+                                                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. .</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/quote-icon.png" alt="quote-icon">
+                                            <div class="testimonial-block-one">
+                                                <div class="inner-box">
+                                                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. .</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/quote-icon.png" alt="quote-icon">
+                                            <div class="testimonial-block-one">
+                                                <div class="inner-box">
+                                                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. .</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/quote-icon.png" alt="quote-icon">
+                                            <div class="testimonial-block-one">
+                                                <div class="inner-box">
+                                                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. .</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/quote-icon.png" alt="quote-icon">
+                                            <div class="testimonial-block-one">
+                                                <div class="inner-box">
+                                                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. .</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="image/quote-icon.png" alt="quote-icon">
+                                            <div class="testimonial-block-one">
+                                                <div class="inner-box">
+                                                    <div class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. .</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="client-thumb-outer">
+                                        <div class="client-thumbs-carousel">
+                                            <div class="item">
+                                                <div class="thumb-item">
+                                                    <figure class="thumb-box">
+                                                        <img src="image/testimoniyal_01.png" alt="testimonial-img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="thumb-item">
+                                                    <figure class="thumb-box">
+                                                        <img src="image/testimoniyal_02.png" alt="testimonial-img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="thumb-item">
+                                                    <figure class="thumb-box">
+                                                        <img src="image/testimoniyal_03.png" alt="testimonial-img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="thumb-item">
+                                                    <figure class="thumb-box">
+                                                        <img src="image/testimoniyal_01.png" alt="testimonial-img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="thumb-item">
+                                                    <figure class="thumb-box">
+                                                        <img src="image/testimoniyal_02.png" alt="testimonial-img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="thumb-item">
+                                                    <figure class="thumb-box">
+                                                        <img src="image/testimoniyal_03.png" alt="testimonial-img">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- MAIN END -->
+   
